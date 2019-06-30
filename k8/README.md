@@ -5,10 +5,10 @@
 You will need to push your image to a registry. If you have not done so, use the following commands to tag and push the images:
 
 ```
-$ docker image tag blog arivzentere/blog
-$ docker push arivzentere/blog
-$ docker image tag store arivzentere/store
-$ docker push arivzentere/store
+$ docker image tag blog ${dockerhubprofile}/blog
+$ docker push ${dockerhubprofile}/blog
+$ docker image tag store ${dockerhubprofile}/store
+$ docker push ${dockerhubprofile}/store
 ```
 
 ## Deployment

@@ -1,0 +1,13 @@
+gcloud config set project ${projectID}
+
+gcloud container clusters create demo --machine-type=n1-standard-2 --scopes cloud-platform
+
+gcloud compute instances stop [instance-name] --async --zone=us-central1-b
+
+kubectl apply -f registry
+
+kubectl get pods
+
+kubectl get pods --watch
+
+kubectl port-forward jhipster-registry-0 8761:8761

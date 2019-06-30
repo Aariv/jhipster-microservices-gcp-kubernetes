@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ariv.demo"
+    },
+    "jhipsterVersion": "6.1.0",
+    "applicationType": "gateway",
+    "baseName": "blog",
+    "packageName": "com.ariv.demo",
+    "packageFolder": "com/ariv/demo",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZDFmN2RmM2MwOTllYmYzN2JiMjMyYTNiZTY5MmNiNjVmMTM2MzcyMDQ3ZGRiMDY3MWVlZDJmY2ZkODg5MjIxMTAxY2RiMzBhMDI0MjcwYzkyM2UxYTZjMTYzNjZmYTRlZGI3ODZiODMwNzUwNzA4YzY3Y2NhNWRlNWM5MGZkMDA=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}

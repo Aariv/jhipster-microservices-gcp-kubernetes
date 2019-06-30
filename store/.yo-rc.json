@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ariv.demo"
+    },
+    "jhipsterVersion": "6.1.0",
+    "applicationType": "microservice",
+    "baseName": "store",
+    "packageName": "com.ariv.demo",
+    "packageFolder": "com/ariv/demo",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MWY4YzU5NGQ1ZWY2MzNlMzdlZTQzM2NmOGMzMzVjOGIyMDExMWUyNDY3OGIyZjNiOWE1YmQxMmY2ZjhiYzNiODJhMDhkMjM2MmUxOTg4NWE3ZTg5ODU3OTBjN2VlZGY0MjZiNDE0MzRjMTE2NmQ4ZWEwYWMwMWZlNDMxMDZkYWI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
