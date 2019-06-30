@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "blog",
+      "store"
+    ],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "YjU3MDQ1NzI2MWVjZjc1ZTllZjQ1ZjU0NmJhOWRjNDVmNDkxNjFjZTUwYTgwOTU2N2VmMDI2NzJhMDZmZDk0MDU2M2Y2MjNhMDc1N2IzMDFkOTg3OTAyODA4NDMzYjliYzE1ZQ==",
+    "dockerRepositoryName": "arivzentere",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "monitoring": "elk",
+    "istio": "no",
+    "istioRoute": false
+  }
+}
